@@ -1,0 +1,297 @@
+.product-select-dropdown {
+    width: 100%;
+}
+
+.product-select-dropdown td {
+    padding: 8px 10px;
+}
+
+.product-select-dropdown tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #FFFFFF;
+
+}
+
+.product-select-dropdown tr:hover {
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.dropdown-list {
+    position: absolute;
+    border: 1px solid #333;
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 0.5rem;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 134px - 160px);
+    cursor: pointer;
+}
+
+.dropdown-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-list li {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.dropdown-list h2 {
+    margin: 0
+}
+
+.dropdown-location-div {
+
+    padding: 0.8rem 0.7rem;
+    cursor: pointer;
+
+}
+
+.dropdown-location-list span {
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-location-list {
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    max-height: calc(100vh - 134px - 160px);
+    z-index: 1;
+}
+
+.dropdown-location-list ul {
+    margin: 0;
+    padding: 0;
+    max-height: 40vh;
+    overflow: auto;
+}
+
+.dropdown-location-list li {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 2.5px 10px;
+}
+
+.dropdown-location-list li:hover {}
+
+.list-operation .ready-count-box {}
+
+.list-operation:hover,
+.list-operation:focus {}
+
+.list-operation:focus .ready-count-box {}
+
+.list-operation:hover .ready-count-box {}
+
+.validate_popup_overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+
+}
+
+.validate_popup_responsive {
+    margin: 8rem auto 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 800px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.validate-popup-button-responsive {
+    font-family: 'Argentum Sans';
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 1px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: #333;
+}
+
+.sort-by-list-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.validate-popup-button-discard-responsive {
+    background-color: #e7e9ed;
+    color: #333;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Argentum Sans';
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 1px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.dropdown-location-warehouse-name {
+    font-size: 0.8rem !important;
+    margin: 0;
+}
+
+.dropdown-div {
+    display: flex;
+    border-radius: 5px;
+    /*padding: 1rem 1rem;*/
+    cursor: pointer;
+}
+
+.dropdown-div h2,
+.o_action_manager h2,
+.inventory-location-drop-down h1,
+h2 {
+    margin: 0;
+    color: black !important;
+    font-size: 0.8rem;
+}
+
+.dropdown-list {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 0.5rem;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 134px - 160px);
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.dropdown-location-warehouse-image {}
+
+.dropdown-location-warehouse-title {}
+
+@media (max-width: 820px) {
+    .dropdown-location-warehouse-image {
+        display: none;
+    }
+
+    .dropdown-location-warehouse-title {
+        display: none;
+    }
+
+    .validate_popup_responsive {
+        margin: 8rem auto 0;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        max-width: 820px;
+        width: 90%;
+        min-width: 300px;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
+
+    .validate-popup-button-discard-responsive {
+        font-family: 'Argentum Sans';
+        border-radius: 5px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        height: 5rem;
+        max-width: 200px;
+        min-width: 100px;
+        line-height: 20px;
+        list-style: none;
+        margin: 1px;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .validate-popup-button-responsive {
+
+        font-family: 'Argentum Sans';
+        border-radius: 5px;
+        border-style: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        letter-spacing: 1px;
+        display: inline-block;
+        font-size: 1.3rem;
+        font-weight: 500;
+        height: 5rem;
+        max-width: 200px;
+        min-width: 100px;
+        line-height: 20px;
+        list-style: none;
+        margin: 1px;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .dropdown-location-warehouse-name {
+        margin: 0;
+    }
+}
